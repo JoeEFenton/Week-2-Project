@@ -1,0 +1,105 @@
+.logo {
+  background-color: #F5005B;
+}
+
+.nav-bar {
+  display: flex;
+
+}
+
+.up-next {
+  background-color: #0B1942;
+  display: flex;
+}
+
+.home {
+  background-color: #00A5BF;
+  color: #FFFFFF;
+}
+
+#calendar {
+  background-color: #00B7D3;
+  color: #FFFFFF;
+}
+
+#join {
+  background-color: #00D5E7;
+  color: #FFFFFF;
+}
+
+#home1 {
+  background-color: #00A5BF;
+  color: #FFFFFF;
+}
+
+#calendar1 {
+  background-color: #00B7D3;
+  color: #FFFFFF;
+}
+
+#join1 {
+  background-color: #00D5E7;
+  color: #FFFFFF;
+}
+
+.nav-bar a {
+  color: #FFFFFF;
+  display: flex;
+
+}
+
+h3 {
+  background-color: #0B1942;
+  color: white;
+}
+#Rashomon {
+  background-color: #E2E2E2;
+  display: flex;
+  flex: 1;
+}
+
+.feature-films {
+  background-color: #E2E2E2;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.home {
+  flex: 1;
+}
+
+#calendar {
+  flex: 1;
+}
+
+#join {
+  flex: 1;
+}
+
+.feature-films {
+  background-color: #E2E2E2;
+  display: flex;
+  flex-flow: column;
+}
+
+.up-next {
+  padding: 20px;
+}
+
+.top-two {
+  flex-wrap: wrap;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+.description {
+  display: flex;
+}
+.choice1 {
+  display: flex;
+}
