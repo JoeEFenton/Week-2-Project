@@ -4,7 +4,6 @@
 
 .nav-bar {
   display: flex;
-
 }
 
 .up-next {
@@ -45,13 +44,13 @@
 .nav-bar a {
   color: #FFFFFF;
   display: flex;
-
 }
 
 h3 {
   background-color: #0B1942;
   color: white;
 }
+
 #Rashomon {
   background-color: #E2E2E2;
   display: flex;
@@ -100,6 +99,25 @@ h3 {
 .description {
   display: flex;
 }
+
 .choice1 {
   display: flex;
+}
+
+@media only screen and (min-width: 769px) {
+  #up-next {
+    display: flex;
+    flex-direction: row;
+  }
+  #Rashomon {
+    flex: 1 0 45%;
+    align-self: flex-start;
+  }
+  #movies {
+    flex: 1 0 45%;
+    flex-flow: row wrap;
+  }
+  .feature-films {
+    flex: 1 0 30%;
+  }
 }
